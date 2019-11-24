@@ -1,0 +1,33 @@
+body{
+	background-color: burlywood;
+}
+header{
+    background-color: wheat;
+    
+}
+main{
+    background-color: beige;
+}
+footer{
+    background-color: brown;
+}
+
+
+video {
+    width: 100%;
+}
+img{
+    width: 50%;    
+}
+
+#foot{
+    color: white;
+    text-align: center;
+}
+
+
+
+
+
+
+

@@ -1,0 +1,56 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Inlämning 2</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="mobile-web-app-capable" content="yes">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" href="style2.css">
+        <link rel="icon" sizes="200x200" href="images.png">
+
+	</head>
+	<body>
+        <header class="col-xs-12 col-sm-12 col-md-12">
+			<h2 class="text-center" style="background-color:burlywood">Film appen</h2>
+            
+	<div id="container">
+			<div class="text-center">
+				<button type="button" class="btn btn-info" id="btn-menu">
+					<span class="glyphicon glyphicon-th-list" aria-hidden="true"></span>
+				</button>
+			</div>
+					<div class="list-group" id="main-menu">
+                        <ul class="nav nav-pills" >
+			<li class="col-xs-12 col-sm-12 col-md-2 col-md-2"><a href="Projekt2.html" class="list-group-item">Sök film</a></li>
+			<li class="col-xs-12 col-sm-12 col-md-2"><a href="media2.html" class="list-group-item">Media</a></li>
+                            </ul>
+            <h4 style="color: black">Användare:</h4><p id="user" class="text-success">Omar Aldulaimi</p> 
+            <h4 style="color: black">Favoritfilm: </h4><p id="favoriteFilm" class="text-success"></p>
+            </div>
+            </div>
+        </header>
+		
+		<main class="col-xs-12 col-md-12">
+			<h2>Sök film</h2>
+			<p class="text-success">Sök filmer: </p>
+			<div class="input-group">
+				<input type="text" class="form-control" placeholder="Titel..">
+				<span class="input-group-btn">
+					<button class="btn btn-success" type="button"  id="btn-search">Sök</button>
+				</span>
+			</div>			
+			<hr>
+			<h2>Sök resultat</h2>
+			<ul class="list-group" id="filmList">
+			</ul>
+		</main>
+	<footer class="col-xs-12 col-sm-12 col-md-12 footer">
+			<h4 id="foot">@ Omar Aldulaimi</h4>
+		</footer>
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="favoritMovie.js"></script>
+		<script src="script2.js"></script>
+	</body>
+</html>
